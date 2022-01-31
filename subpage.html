@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wizard Resume</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="color: grey" bgcolor="black" text="grey">
+        <h2>Submit Your Details In order To get more info about PES</h2>
+        <table width='50%'>
+        <tr>
+        <td>
+        <form action="/action_page.php">
+        <fieldset>
+        <legend>Personal Details</legend>
+                        <table>
+                        <tr>
+                        <td><label for="Firstname">First name : </label></td>
+                        <td><input type="text" id="Firstname" name="First name" required placeholder="Enter your First name"></td>
+                        </tr>
+          
+                        <tr>
+                        <td><label for="Middlename">Middle name : </label></td>
+                        <td><input type="text" id="Middlename" name="Middle name" required placeholder="Enter your Middle name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Lastname">Last name : </label></td>
+                            <td><input type="text" id="Lastname" name="Last name" required placeholder="Enter your Last name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="dob">Date of Birth : </label></td>
+                            <td><input type="date" id="dob" name="Date of Birth" required></td>
+                        </tr>
+                        <tr>
+                        <td><label for="age">Age : </label></td>
+                        <td><input type="text" id="age" name="Age" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="gender">Gender : </label></td>
+                            <td><input type="radio" id="gender" name="Gender" value="Male" required>Male</td>
+                            <td><input type="radio" id="gender" name="Gender" value="Female" required>Female</td>
+                        </tr>
+                        </table>
+        </fieldset>
+        </form>
+        </td>
+        </tr>
+        </table>
+        
+    <br>
+    <progress value="20" max="100"></progress> 20% out of 100% 
+    <br><br>
+    <table width='50%'>
+        <tr>
+        <td>
+        <form action="/action_page.php">
+        <fieldset>
+        <legend>Address Details</legend>
+                        <table>
+                        <tr>
+                        <td><label for="Address">Address : </label></td>
+                        <td><textarea rows="6" id='Address' cols="60" name="text" ></textarea></td>
+                        </tr>
+          
+                        <tr>
+                        <td><label for="City">City/Town : </label></td>
+                        <td><input type="text" id="City" name="City" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="State">State : </label></td>
+                            <td><input type="text" id="State" name="State" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Zipcode">Zip Code : </label></td>
+                            <td><input type="text" id="Zipcode" name="code" required placeholder='only 6 digits'></td>
+                        </tr>
+        </table>
+        </fieldset>
+        </form>
+        </td>
+        </tr>
+        </table>
+    <br>
+    <progress value="40" max="100"></progress> 40% out of 100% 
+    <br><br>
+     <table width='50%'>
+        <tr>
+        <td>
+        <form action="/action_page.php">
+        <fieldset>
+        <legend>Contact Information</legend>
+                        <table>
+                        <tr>
+                        <td><label for="Telephone">Telephone : </label></td>
+                        <td><input type="tel" id="Telephone" name="Telephone" required placeholder="(044)999 999" pattern="[0-9]{6}"></td>
+                        </tr>
+          
+                        <tr>
+                        <td><label for="Phone">Phone : </label></td>
+                        <td><input type="tel" id="Phone" name="Phone" required placeholder='(+91)99999 999999' pattern="[0-9]{10}"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Email">Email id : </label></td>
+                            <td><input type="email" id="Email" name="Email" required placeholder="Enter valid Mail id"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="code">Zip Code : </label></td>
+                            <td><input type="text" id="code" name="code" required placeholder='only 6 digits'></td>
+                        </tr>
+        </table>
+        </fieldset>
+        </form>
+        </td>
+        </tr>
+        </table>
+        <br>
+        <progress value="60" max="100"></progress> 60% out of 100% 
+        <br><br>
+        <table style="color: white" width='50%'>
+        <tr>
+        <td>
+        <form action="/action_page.php">
+        <fieldset>
+        <legend>Education details</legend>
+                        <table border='1' bordercolor="white" width='50%'>
+                      
+                        <tr>
+                            <th align="centre">Qualification  &nbsp;&nbsp;</th>
+                            <th>Board/University  &nbsp;&nbsp;</th>
+                            <th>Country  &nbsp;&nbsp;</th>
+                            <th>Starting Year  &nbsp;&nbsp;</th>
+                            <th>Ending Year  &nbsp;&nbsp;</th>
+                            <th>Percentage  &nbsp;&nbsp;</th>
+                        </tr>
+                        <tr>
+                        <td><label for="10th">10th</label>
+                        <input type="checkbox" id="10th" name="tenth" required ></td>
+                        <td><label for="uni"></label>
+                        <input type="text" id="uni" name="uni" required placeholder='board/university'></td>
+                        <td><label for="dropdown"></label>
+                            <select name = "dropdown">
+                            <option value = "choose" >choose</option>
+                            <option value = "India" >India</option>
+                            <option value = "France">France</option>
+                            <option value = "Brazil">Brazil</option>
+                            <option value = "Australia">Australia</option>
+                            <option value = "Iran">Iran</option>
+                            <option value = "Maldives">Maldives</option>
+                            <option value = "Saudi Arabia">Saudi Arabia</option>
+                            <option value = "United Kingdom">United Kingdom</option>
+                            <option value = "Armenia">Armenia</option>
+                            </select>
+                        </td>
+                        <td><label for="starting_year"></label>
+                        <input type="date" id="starting_year" name="starting_year"></td>
+                        <td><label for="ending_year"></label>
+                        <input type="date" id="ending_year" name="ending_year"></td>
+                        <td><label for="percentage"></label>
+                            <input type="text" id="percentage" name="percentage"></td>
+                        </tr>
+                        <tr>
+                        <td><label for="12th1">12th</label>
+                        <input type="checkbox" id="12th1" name="twelth" required ></td>
+                        <td><label for="uni"></label>
+                        <input type="text" id="uni" name="uni" required placeholder='board/university'></td>
+                        <td><label for="dropdown"></label>
+                            <select name = "dropdown">
+                            <option value = "choose" >choose</option>
+                            <option value = "India" >India</option>
+                            <option value = "France">France</option>
+                            <option value = "Brazil">Brazil</option>
+                            <option value = "Australia">Australia</option>
+                            <option value = "Iran">Iran</option>
+                            <option value = "Maldives">Maldives</option>
+                            <option value = "Saudi Arabia">Saudi Arabia</option>
+                            <option value = "United Kingdom">United Kingdom</option>
+                            <option value = "Armenia">Armenia</option>
+                            </select>
+                        </td>
+                        <td><label for="starting_year"></label>
+                        <input type="date" id="starting_year" name="starting_year"></td>
+                        <td><label for="ending_year"></label>
+                        <input type="date" id="ending_year" name="ending_year"></td>
+                        <td><label for="percentage"></label>
+                            <input type="text" id="percentage" name="percentage"></td>
+                        </tr>
+                        <tr>
+                        <td><label for="Btech">B.Tech</label>
+                        <input type="checkbox" id="Btech" name="Btech" required ></td>
+                        <td><label for="uni"></label>
+                        <input type="text" id="uni" name="uni" required placeholder='board/university'></td>
+                        <td><label for="dropdown"></label>
+                            <select name = "dropdown">
+                            <option value = "choose" >choose</option>
+                            <option value = "India" >India</option>
+                            <option value = "France">France</option>
+                            <option value = "Brazil">Brazil</option>
+                            <option value = "Australia">Australia</option>
+                            <option value = "Iran">Iran</option>
+                            <option value = "Maldives">Maldives</option>
+                            <option value = "Saudi Arabia">Saudi Arabia</option>
+                            <option value = "United Kingdom">United Kingdom</option>
+                            <option value = "Armenia">Armenia</option>
+                            </select>
+                        </td>
+                        <td><label for="starting_year"></label>
+                        <input type="date" id="starting_year" name="starting_year"></td>
+                        <td><label for="ending_year"></label>
+                        <input type="date" id="ending_year" name="ending_year"></td>
+                        <td><label for="percentage"></label>
+                            <input type="text" id="percentage" name="percentage"></td>
+                        </tr>
+                        <tr>
+                        <td><label for="Mtech">M.Tech</label>
+                        <input type="checkbox" id="Mtech" name="Mtech" required ></td>
+                        <td><label for="uni"></label>
+                        <input type="text" id="uni" name="uni" required placeholder='board/university'></td>
+                        <td><label for="dropdown"></label>
+                            <select name = "dropdown">
+                            <option value = "choose" >choose</option>
+                            <option value = "India" >India</option>
+                            <option value = "France">France</option>
+                            <option value = "Brazil">Brazil</option>
+                            <option value = "Australia">Australia</option>
+                            <option value = "Iran">Iran</option>
+                            <option value = "Maldives">Maldives</option>
+                            <option value = "Saudi Arabia">Saudi Arabia</option>
+                            <option value = "United Kingdom">United Kingdom</option>
+                            <option value = "Armenia">Armenia</option>
+                            </select>
+                        </td>
+                        <td><label for="starting_year"></label>
+                        <input type="date" id="starting_year" name="starting_year"></td>
+                        <td><label for="ending_year"></label>
+                        <input type="date" id="ending_year" name="ending_year"></td>
+                        <td><label for="percentage"></label>
+                            <input type="text" id="percentage" name="percentage"></td>
+                        </tr>
+                        </table>
+        </fieldset>
+        </form>
+        </td>
+        </tr>
+        </table>
+        <br>
+        <progress value="80" max="100"></progress> 80% out of 100% 
+        <br><br>
+        <table border='1' bordercolor='white'>
+            <tr>
+                <td>Attach your resume in .doc or .pdf format &nbsp;&nbsp;<input type='file' name='file'>
+                <br><br>
+                <input type='checkbox' name='checkbox'>I filled all the details
+                <br><br>
+                <input type="checkbox" name='checkbox' required>I've never played FIFA
+                </td>
+            </tr>
+            
+        </table>
+        <br>
+        <progress value="100" max="100"></progress> 100% out of 100% 
+        <br><br>
+        <table align='center'>
+            <tr>
+                <td align='center'>
+                    <form action="/action_page.php">
+                        <button type='submit' ><a href='last.html'>SUBMIT</button>
+			>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
